@@ -75,9 +75,10 @@ def iniciar_jogo():
         
             else:
                 print("Ação inválida. O lobo não esperou e te atacou.")
-
+                jogando = False
         else:
-            print("Direção inválida. Você ficou parado até morrer de fome.")  
+            print("Direção inválida. Você ficou parado até morrer de fome.")
+            jogando = False
         
 while True:
     iniciar_jogo()
