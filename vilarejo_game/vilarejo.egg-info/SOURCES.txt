@@ -1,8 +1,0 @@
-pyproject.toml
-vilarejo/cli.py
-vilarejo/game.py
-vilarejo.egg-info/PKG-INFO
-vilarejo.egg-info/SOURCES.txt
-vilarejo.egg-info/dependency_links.txt
-vilarejo.egg-info/entry_points.txt
-vilarejo.egg-info/top_level.txt
