@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: vilarejo
+Version: 1.0.0
+Summary: Jogo de aventura em CLI
+Author: Carlos
+Requires-Python: >=3.10
