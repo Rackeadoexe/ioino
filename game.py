@@ -25,15 +25,19 @@ def iniciar_jogo():
                         
                         if ação=="esquerda":
                             print("O túnel segue profundamente, sem sinal de saida, você vai o mais fundo que pode antes de desmaiar por falta de oxigênio e morrer pela mesma causa.")
-                        
+                            jogando=False
+                            voltar=False
+                            
                         elif ação=="direita":
                             print("Você sente a brisa vindo, ao seguir a diante, se depara com a saída do túnel, ao olhar ao redor após sair, nota que está no pé do penhasco, a sua frente há uma placa que aponta a direçãp da cidade mais próxima.")
                             ação=input("deseja seguir a estrada ou retornar a encruzilhada?(seguir/retornar)").lower()
                             if ação=="seguir":
                                 print("Você chega a cidade, e decide por la viver, com suas habilidades você se torna um grande caçador, vivendo de forma pacifíca até sua morte.")
                                 jogando=False
+                                voltar=False
                             elif ação=="retornar":
                                 print("Você retorna a encruzilhada")
+                                voltar=False
 
                         elif ação=="voltar":
                             print("Você volta para a frente do poço.")
@@ -136,3 +140,4 @@ def iniciar_jogo():
                 jogando=False
         else:
             print("Ação Invalida, você não faz nada")              
+        
